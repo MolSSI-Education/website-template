@@ -24,7 +24,7 @@ twitter_username: MolSSI_NSF
 github_username:  molssi-education
 
 # Build settings
-markdown: kramdown
+markdown: CommonMarkGhPages
 theme: minima
 plugins:
   - jekyll-feed
@@ -33,6 +33,11 @@ plugins:
 header_pages:
   - index.md
   - page1.md
+
+# Gems
+plugins:
+  - jekyll-octicons
+  
   
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
